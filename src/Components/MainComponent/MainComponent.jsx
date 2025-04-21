@@ -15,7 +15,7 @@ export default function MainComponent() {
         muted
         loop
         playsInline
-        className="absolute top-0 left-0 w-full h-full object-cover z-[-1]"
+        className="absolute top-0 left-0 w-full h-[110vh] object-cover z-[-1]"
       >
         <source src={video} type="video/mp4" />
         Your browser does not support the video tag.
