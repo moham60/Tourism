@@ -7,4 +7,5 @@ import flowbite from "flowbite/plugin";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss(), flowbite],
+  base: /Tourism/,
 });
