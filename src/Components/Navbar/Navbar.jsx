@@ -1,7 +1,9 @@
 import { Link, NavLink } from "react-router-dom";
 import logoImg from "../../assets/images/travel_18240216-DelLDBoX.png";
+import { useRef } from "react";
 
 export default function Navbar() {
+  const toggole = useRef(null);
   return (
     <div>
       <nav className="bg-white shadow-2xl z-[400]  fixed top-0 left-0 right-0 border-gray-200 dark:bg-gray-900">
@@ -30,6 +32,7 @@ export default function Navbar() {
             </div>
             <button
               data-collapse-toggle="navbar-search"
+              onClick={() => toggole.current.classList.toggle("hidden")}
               type="button"
               className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
               aria-controls="navbar-search"
@@ -53,6 +56,7 @@ export default function Navbar() {
           </div>
           <div
             className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+            ref={toggole}
             id="navbar-search">
             <div className="relative mt-3 md:hidden">
               <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
@@ -82,7 +86,7 @@ export default function Navbar() {
               <li>
                 <NavLink
                   to="home"
-                  className="block  cursor-pointer py-2 px-3    md:bg-transparent md:p-0 "
+                  className="block   cursor-pointer py-2 px-3    md:bg-transparent md:p-0 "
                   aria-current="page">
                   Home
                 </NavLink>
