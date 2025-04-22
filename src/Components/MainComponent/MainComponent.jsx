@@ -2,13 +2,23 @@ import tour1 from "../../assets/images/articles_01-570x450-BR0kEju-.jpg";
 import tour2 from "../../assets/images/cairo-egypt-7x3-DBfK6OpW.jpg";
 import tour3 from "../../assets/images/a73cbfbcf18054bf31ee42e6453c5d94-L8BdFmTg.jpg";
 import tour4 from "../../assets/images/images-BQRi0Yav.jpeg";
+import video from "../../../public/WhatsApp Video 2025-04-21 at 17.43.53_cd538169.mp4";
 export default function MainComponent() {
   return (
     <>
       <section
         id="home"
-        className="h-[100vh]  bg-black flex items-center justify-center text-white text-center ">
-        <div className="content">
+        className="h-[95vh]  flex items-center justify-center text-white text-center ">
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          src={video}
+          className="absolute top-0 left-0 w-full h-[110vh] object-cover z-[-1]">
+          Your browser does not support the video tag.
+        </video>
+        <div className="content ">
           <h1 className=" uppercase text-5xl font-bold">Discover the world</h1>
           <button className="mt-6 border border-white transition-all duration-500  cursor-pointer hover:bg-transparent hover:text-white px-4 py-2  bg-white shadow text-black rounded-2xl capitalize">
             Explore our trips
