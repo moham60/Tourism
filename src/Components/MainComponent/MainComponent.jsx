@@ -4,6 +4,8 @@ import tour2 from "../../assets/images/cairo-egypt-7x3-DBfK6OpW.jpg";
 import tour3 from "../../assets/images/a73cbfbcf18054bf31ee42e6453c5d94-L8BdFmTg.jpg";
 import tour4 from "../../assets/images/images-BQRi0Yav.jpeg";
 import video from "/WhatsApp Video 2025-04-21 at 17.43.53_cd538169.mp4";
+import BlogSection from "./BlogSection";
+import ContactUs from "./ContactUs";
 export default function MainComponent() {
   return (
     <>
@@ -106,6 +108,44 @@ export default function MainComponent() {
           </div>
         </div>
       </section>
+
+<section id="blogs">
+<BlogSection />
+</section>
+
+<section className="bg-white py-16 px-6">
+      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+      
+        <img
+          src=" src/assets/images/cairo-egypt-7x3-DBfK6OpW.jpg "
+          alt="About Us"
+          className="rounded-2xl shadow-md"
+        />
+
+        
+        <div>
+          <h2 className="text-3xl font-bold text-gray-800 mb-4">About Us</h2>
+          <p className="text-gray-600 mb-4 leading-relaxed">
+            We are a passionate team specializing in modern web development using technologies like React and Tailwind CSS. Our goal is to deliver creative and responsive solutions that help you build a strong online presence.
+          </p>
+          <p className="text-gray-600 mb-6 leading-relaxed">
+            Whether a business website or a personal project, we focus on high quality, great user experience, and fast performance. Client satisfaction is always our top priority.
+          </p>
+          <a href="#contact" className="inline-block bg-blue-600 text-white px-6 py-2 rounded-xl hover:bg-blue-50 hover:text-blue-600 transition">
+            Contact Us
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <ContactUs />
+    </section>
+
+
+
+
+
     </>
   );
 }
