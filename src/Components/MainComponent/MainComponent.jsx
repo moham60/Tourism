@@ -2,11 +2,10 @@ import tour1 from "../../assets/images/articles_01-570x450-BR0kEju-.jpg";
 import tour2 from "../../assets/images/cairo-egypt-7x3-DBfK6OpW.jpg";
 import tour3 from "../../assets/images/a73cbfbcf18054bf31ee42e6453c5d94-L8BdFmTg.jpg";
 import tour4 from "../../assets/images/images-BQRi0Yav.jpeg";
- 
 import video from "/WhatsApp Video 2025-04-21 at 17.43.53_cd538169.mp4";
 import BlogSection from "./BlogSection";
 import ContactUs from "./ContactUs";
-import video from " ../../public/WhatsApp Video 2025-04-21 at 17.43.53_cd538169.mp4";
+ 
 
  
 export default function MainComponent() {
