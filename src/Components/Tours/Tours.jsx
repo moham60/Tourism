@@ -4,9 +4,7 @@ import tour3 from "../../assets/images/a73cbfbcf18054bf31ee42e6453c5d94-L8BdFmTg
 import tour4 from "../../assets/images/images-BQRi0Yav.jpeg";
 export default function Tours() {
   return (
-    <section
-      className="tours  w-full  min-h-[100vh] py-25 flex flex-col  justify-center   bg-gray-100"
-      id="tours">
+    <section className="tours  w-full py-22 mt-5    bg-gray-100" id="tours">
       <h1 className="text-4xl font-bold text-center relative top-10 mb-20">
         Our Tours
       </h1>

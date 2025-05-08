@@ -1,8 +1,6 @@
 export default function Services() {
   return (
-    <section
-      className="services w-full min-h-[100vh] py-25    flex flex-col  justify-center "
-      id="services">
+    <section className="services w-full  py-22 mt-5 " id="services">
       <h1 className="text-4xl font-bold text-center relative top-10 mb-20">
         Our Services
       </h1>

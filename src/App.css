@@ -3,3 +3,15 @@
 .active{
    color: blue;
 }
+
+.socialIcon a{
+   font-size: 1rem;
+   display: flex;
+   background-color: black;
+   width: 40px;
+   height: 40px;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+
+}

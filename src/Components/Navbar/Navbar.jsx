@@ -6,7 +6,7 @@ export default function Navbar() {
   const toggole = useRef(null);
   return (
     <div>
-      <nav className="bg-white shadow-2xl z-[400]  fixed top-0 left-0 right-0 border-gray-200 dark:bg-gray-900">
+      <nav className="bg-white shadow-2xl z-[400]    fixed top-0 left-0 right-0 border-gray-200 dark:bg-gray-900">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <Link
             to="home"

@@ -5,8 +5,8 @@ import MainComponent from "./Components/MainComponent/MainComponent";
 import Tours from "./Components/Tours/Tours";
 import Contact from "./Components/Contact/Contact";
 import Services from "./Components/Services/Services";
-import Blogs from "./Components/Blogs/Blogs";
 import AboutUs from "./Components/AboutUs/AboutUs";
+import BlogSection from "./Components/Blogs/BlogSection";
 const hashRouter = createHashRouter([
   {
     path: "",
@@ -38,7 +38,7 @@ const hashRouter = createHashRouter([
       },
       {
         path: "/blogs",
-        element: <Blogs />,
+        element: <BlogSection />,
       },
     ],
   },
