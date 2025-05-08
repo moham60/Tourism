@@ -1,12 +1,9 @@
+import aboutImg from "/assets/images/cairo-egypt-7x3-DBfK6OpW.jpg";
 export default function AboutUs() {
   return (
     <section id="about" className="bg-white py-22 mt-5   px-6">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-        <img
-          src=" src/assets/images/cairo-egypt-7x3-DBfK6OpW.jpg "
-          alt="About Us"
-          className="rounded-2xl shadow-md"
-        />
+        <img src={aboutImg} alt="About Us" className="rounded-2xl shadow-md" />
         <div>
           <h2 className="text-3xl font-bold text-gray-800 mb-4">About Us</h2>
           <p className="text-gray-600 mb-4 leading-relaxed">

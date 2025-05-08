@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import logoImg from "../../assets/images/travel_18240216-DelLDBoX.png";
+import logoImg from "/assets/images/travel_18240216-DelLDBoX.png";
 import { useRef } from "react";
 
 export default function Navbar() {

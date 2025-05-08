@@ -32,7 +32,7 @@ const ContactUs = () => {
   };
 
   return (
-    <section className="bg-gray-100 py-22 mt-5 " id="contact">
+    <section className="bg-gray-100 py-22 px-6 mt-5 " id="contact">
       <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-start">
         {/* Contact Info */}
         <div>

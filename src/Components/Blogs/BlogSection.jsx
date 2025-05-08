@@ -4,7 +4,7 @@ const blogs = [
     title: " Blogs for Travel Enthusiasts",
     description:
       "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quibusdam.",
-    image: "src/assets/images/a73cbfbcf18054bf31ee42e6453c5d94-L8BdFmTg.jpg ",
+    image: "assets/images/a73cbfbcf18054bf31ee42e6453c5d94-L8BdFmTg.jpg",
     date: "May 1, 2025",
   },
   {
@@ -12,7 +12,7 @@ const blogs = [
     title: "Blogs for Travel Enthusiasts",
     description:
       "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quibusdam.",
-    image: "src/assets/images/cairo-egypt-7x3-DBfK6OpW.jpg ",
+    image: "assets/images/cairo-egypt-7x3-DBfK6OpW.jpg",
     date: "April 24, 2025",
   },
   {
@@ -20,14 +20,14 @@ const blogs = [
     title: "Blogs for Travel Enthusiasts",
     description:
       "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quibusdam.",
-    image: "src/assets/images/articles_01-570x450-BR0kEju-.jpg ",
+    image: "assets/images/articles_01-570x450-BR0kEju-.jpg",
     date: "April 10, 2025",
   },
 ];
 
 const BlogSection = () => {
   return (
-    <section id="blogs" className="py-22 mt-5   relative    bg-gray-100">
+    <section id="blogs" className="py-22 mt-5 px-6  relative    bg-gray-100">
       <div className="max-w-7xl mx-auto text-center">
         <h2 className="text-3xl font-bold mb-4"> Blogs</h2>
 

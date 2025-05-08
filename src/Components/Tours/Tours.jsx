@@ -1,10 +1,12 @@
-import tour1 from "../../assets/images/articles_01-570x450-BR0kEju-.jpg";
-import tour2 from "../../assets/images/cairo-egypt-7x3-DBfK6OpW.jpg";
-import tour3 from "../../assets/images/a73cbfbcf18054bf31ee42e6453c5d94-L8BdFmTg.jpg";
-import tour4 from "../../assets/images/images-BQRi0Yav.jpeg";
+import tour1 from "/assets/images/articles_01-570x450-BR0kEju-.jpg";
+import tour2 from "/assets/images/cairo-egypt-7x3-DBfK6OpW.jpg";
+import tour3 from "/assets/images/a73cbfbcf18054bf31ee42e6453c5d94-L8BdFmTg.jpg";
+import tour4 from "/assets/images/images-BQRi0Yav.jpeg";
 export default function Tours() {
   return (
-    <section className="tours  w-full py-22 mt-5    bg-gray-100" id="tours">
+    <section
+      className="tours  w-full py-22 px-6 mt-5    bg-gray-100"
+      id="tours">
       <h1 className="text-4xl font-bold text-center relative top-10 mb-20">
         Our Tours
       </h1>

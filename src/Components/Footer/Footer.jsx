@@ -1,4 +1,4 @@
-import logoImg from "../../assets/images/travel_18240216-DelLDBoX.png";
+import logoImg from "/assets/images/travel_18240216-DelLDBoX.png";
 
 export default function Footer() {
   return (
