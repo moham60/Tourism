@@ -1,11 +1,14 @@
- 
 import tour1 from "../../assets/images/articles_01-570x450-BR0kEju-.jpg";
 import tour2 from "../../assets/images/cairo-egypt-7x3-DBfK6OpW.jpg";
 import tour3 from "../../assets/images/a73cbfbcf18054bf31ee42e6453c5d94-L8BdFmTg.jpg";
 import tour4 from "../../assets/images/images-BQRi0Yav.jpeg";
+ 
 import video from "/WhatsApp Video 2025-04-21 at 17.43.53_cd538169.mp4";
 import BlogSection from "./BlogSection";
 import ContactUs from "./ContactUs";
+import video from " ../../public/WhatsApp Video 2025-04-21 at 17.43.53_cd538169.mp4";
+
+ 
 export default function MainComponent() {
   return (
     <>
@@ -13,15 +16,14 @@ export default function MainComponent() {
         id="home"
         className="h-[95vh]  flex items-center justify-center text-white text-center ">
         <video
-        autoPlay
-        muted
-        loop
-        playsInline
-        className="absolute top-0 left-0 w-full h-[110vh] object-cover z-[-1]"
-      >
-        <source src={video} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+          autoPlay
+          muted
+          loop
+          playsInline
+          src={video}
+          className="absolute top-0 left-0 w-full h-[110vh] object-cover z-[-1]">
+          Your browser does not support the video tag.
+        </video>
 
         <div className="content">
           <h1 className=" uppercase text-5xl font-bold">Discover the world</h1>
